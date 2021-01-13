@@ -23,9 +23,9 @@ todo: document return values including errors
 ## Compatibility
 
 ### Debian 10 (Buster)
-WireGuard, Go and systemd must be installed from backports, which needs to be enabled. [Instructions for enabling backports on Debian](https://backports.debian.org/Instructions/).
+WireGuard and systemd must be installed from backports, which needs to be enabled. [Instructions for enabling backports on Debian](https://backports.debian.org/Instructions/).
 ```sh
-sudo apt install -t buster-backports wireguard golang-1.14-go systemd
+sudo apt install -t buster-backports wireguard systemd
 ```
 
 ### Completely working
